@@ -1,0 +1,45 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background:url('img/img2.jpg') no-repeat center center/cover;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.animated {
+
+
+    font-family: 'Charm', cursive;
+    padding: 0;
+    margin: 0;
+    font-size: 6rem;
+    background: url('img/img1.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: moveBg 90s linear infinite;
+    -webkit-animation: moveBg 90s linear infinite;
+
+
+
+}
+
+@keyframes moveBg {
+    0% {
+        background-position: 0% 30%;
+
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}
