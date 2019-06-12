@@ -86,7 +86,7 @@ const todos=[
     },
 ];
 
-const todoJSON= JSON.stringify(todos);
+/*const todoJSON= JSON.stringify(todos);
 console.log(todoJSON);
 
 //console.log(todos);
@@ -99,3 +99,25 @@ for(let todo of todos) {
 todos.forEach(function(todo){
 console.log(todo.text);
 });
+
+const todoText=todos.map(function(todo){
+return todo.isCompleted === true;
+});
+
+console.log(todoText);
+
+const todoText1=todos.filter(function(todo){
+    return todo.isCompleted === true;
+    });
+console.log(todoText1);    
+
+*/
+
+function Person(firstName, lastName, dob){
+    this.firstName=firstName;
+    this.lastName=lastName;
+    this.dob=new Date(dob);
+}
+
+const person1= new Person('John','Doe',23-12-1998);
+console.log(person1);
