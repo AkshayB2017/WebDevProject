@@ -53,3 +53,18 @@ fruit.unshift('apple');
 console.log(fruit);
 console.log(Array.isArray('hello'));
 
+
+/*const person= {
+    firstName:'John',
+    lastName:'Doe',
+    agee:40,
+    hobbies:['music','movies','sport'],
+    address: {
+        street: 'main street',
+        city: 'boston',
+        state:  'MA'
+    },
+}
+console.log(person)
+
+*/
