@@ -68,3 +68,34 @@ console.log(Array.isArray('hello'));
 console.log(person)
 
 */
+const todos=[
+    {
+        id:1,
+        text: 'Take Out Trash',
+        isCompleted: true,
+    },
+    {
+        id:2,
+        text: 'Eat out',
+        isCompleted: true,
+    },
+    {
+        id:3,
+        text: 'Study',
+        isCompleted: false,
+    },
+];
+
+const todoJSON= JSON.stringify(todos);
+console.log(todoJSON);
+
+//console.log(todos);
+
+for(let todo of todos) {
+    console.log(todo.text);
+}
+
+
+todos.forEach(function(todo){
+console.log(todo.text);
+});
